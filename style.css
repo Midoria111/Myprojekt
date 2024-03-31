@@ -1,0 +1,290 @@
+
+*{
+    margin-bottom: 0;
+    padding: 0;
+}
+body{
+    color: #444444;
+    font-family: sans-serif;
+
+    
+    border-top: 5px solid #1098AD;
+    position: relative;
+}
+
+.container{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.main-header{
+    background-color: #898080f7;
+    padding: 20px 40px;
+    margin-bottom: 60px;
+   /* height: 80px;*/
+
+}
+
+
+aside{
+   background: color #f7f7f7;
+   border-top: 5px solid #1098AD;
+   border-bottom: 5px solid #1098AD;
+   padding: 50px 50px;
+   box-sizing: border-box;
+}
+
+h1, h2, h3{
+    color: #1098AD;
+}
+
+h1{
+font-size: 26px;
+text-transform: uppercase;
+font-style: italic;
+}
+
+h1::first-letter{
+    font-style: normal;
+    margin-right:5px;
+}
+
+
+
+h2{
+    font-size: 40px;
+    position: relative;
+}
+
+h2::after{
+ content: "ТОП";
+ background-color: yellow;
+ color: grey;
+ font-size: 16px;
+ display:inline-block;
+ padding: 5px 10px;
+ position: absolute;
+ top: -10;
+ right: -25px;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+
+    margin-top: 40px;
+}
+
+
+h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 22px;
+    line-height: 1.5;
+
+    margin-bottom: 15px;
+    
+}
+
+
+
+
+ul,ol{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+
+li{
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+li:last-child{
+    margin-bottom: 0;
+}
+
+/*footer p{
+    font-size: 16px;
+}*/
+/*
+ article header p{
+    font-style: italic;
+}*/
+.autor{
+    font-style: italic;
+    font-size: 18px;
+}
+
+.copyright{
+    font-size: 16px;
+}
+
+.related-autor{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+ /*ul{
+    list-style: none;
+}*/
+.related{
+    list-style: none;
+}
+
+
+/*
+.first-li{
+    font-weight: bold;
+}*/
+
+li:first-child{
+    font-weight: bold;
+}
+
+li:last-child{
+    font-style: italic;
+}
+
+a:link{
+    color: #1098AD;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #1098AD;
+}
+
+a:hover{
+    color:orangered;
+    font-weight: bold;
+   text-decoration: underline dashed rebeccapurple;
+}
+
+a:active{
+    background-color: aqua;
+    font-style: italic;
+}
+
+.post-img{
+    width: 500px;
+    height: 250px;
+}
+
+nav a:link:last-child{
+    margin-right: 0;
+}
+
+button{
+    font-size: 22px;
+    padding: 20px;
+
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+
+/*#copyright{
+    color: red;
+}
+
+.copyright{
+    color: blue;
+}
+
+.text{
+    color: yellow;
+}
+
+footer p{
+    color:green;
+}
+*/
+nav a:link{
+    font-size: 18px;
+}
+
+article{
+    margin-bottom: 40px;
+}
+ 
+.author-img{ 
+   float: left;
+    margin-bottom: 20px;
+    }
+    
+    /*.author{
+        float: left; 
+        margin-top: 10px;
+    }
+
+    .author-box{
+        display: flex;
+        margin-bottom: 20px;
+        gap: 10px;
+    }
+
+    
+    h1{
+         float:left;
+    }
+     nav{
+        margin-top: 25px; margin-left:200px;
+        float:right;
+     }
+
+     .nav-box{
+        display: flex;
+     }
+
+     article{
+      width: 825px;
+      float: left;
+     }
+
+     aside{
+      width: 500px;
+      float: right;
+     }
+
+     footer{
+    clear: both;
+     }
+     
+
+     .related{
+        margin-left: 0;
+     }*/
+
+ /* FLEXBOX */
+       
+
+     .main-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     }
+
+     .author-box{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+     }
+      
+     .autor{
+        margin-bottom: 0;
+        margin-left: 15px;
+     }
+
+
